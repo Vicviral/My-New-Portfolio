@@ -253,7 +253,6 @@ section:after {
     background: rgba(255, 255, 255, 0.7);
 }
 
-
 #menu-toggle span.lines {
     width: 24px;
     height: 2px;
@@ -328,7 +327,7 @@ section:after {
     padding: 30px 0;
 }
 
-#main-menu > li > a {
+#main-menu>li>a {
     text-transform: uppercase;
     font-size: 14px;
     padding: 14px 25px;
@@ -336,13 +335,13 @@ section:after {
     color: #FFF;
 }
 
-#main-menu > li > a:hover,
-#main-menu > li > a.active {
+#main-menu>li>a:hover,
+#main-menu>li>a.active {
     color: #2E8BC0;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
+.nav>li>a:hover,
+.nav>li>a:focus {
     background-color: transparent;
 }
 
@@ -373,7 +372,7 @@ section:after {
 }
 
 .box p {
-	font-weight: 400;
+    font-weight: 400;
     margin: 30px 0;
 }
 
@@ -453,7 +452,7 @@ section:after {
     transform: scale(1.1);
 }
 
-.ss-phone >img {
+.ss-phone>img {
     display: block;
     left: 50%;
     position: absolute;
@@ -551,7 +550,7 @@ section:after {
     bottom: 50%;
 }
 
-.member-social-icon ul > li > a {
+.member-social-icon ul>li>a {
     background: #2E8BC0;
     border-radius: 5px;
     color: #ffffff;
@@ -564,7 +563,7 @@ section:after {
     width: 40px;
 }
 
-.member-social-icon ul > li > a > i {
+.member-social-icon ul>li>a>i {
     transform: rotate(-45deg);
 }
 
@@ -576,6 +575,7 @@ section:after {
 .member-info h4 {
     font-weight: 400;
 }
+
 
 /* -----------------------------------------------------------------
     				
@@ -589,7 +589,7 @@ section:after {
 }
 
 .item-container blockquote {
-	font-size: 16px;
+    font-size: 16px;
     text-align: center;
     color: #FFF;
     border-left: none;
@@ -778,8 +778,8 @@ label {
 
 /* active state */
 
-.inputMaterial:focus ~ label,
-.inputMaterial:valid ~ label {
+.inputMaterial:focus~label,
+.inputMaterial:valid~label {
     top: -20px;
     font-size: 16px;
     color: #51D1C4;
@@ -818,15 +818,15 @@ label {
 
 /* active state */
 
-.inputMaterial:focus ~ .bar:before,
-.inputMaterial:focus ~ .bar:after {
+.inputMaterial:focus~.bar:before,
+.inputMaterial:focus~.bar:after {
     width: 50%;
 }
 
 
 /* active state */
 
-.inputMaterial:focus ~ .highlight {
+.inputMaterial:focus~.highlight {
     -webkit-animation: inputHighlighter 0.3s ease;
     -moz-animation: inputHighlighter 0.3s ease;
     animation: inputHighlighter 0.3s ease;
@@ -888,7 +888,7 @@ label {
 }
 
 #footer .copyright {
-	font-size: 14px;
+    font-size: 14px;
     padding: 30px 0 0;
     border-top: 1px solid #2D2D2F;
 }
@@ -1003,8 +1003,8 @@ label {
         float: none;
     }
 }
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
     #home {
         padding: 125px 0;
     }
@@ -1015,8 +1015,8 @@ label {
         text-align: center;
     }
 }
-@media (max-width: 479px) {
 
+@media (max-width: 479px) {
     #home {
         padding: 100px 0;
     }
@@ -1025,4 +1025,3 @@ label {
         margin: 0 auto;
     }
 }
-
