@@ -359,6 +359,10 @@ section:after {
     padding: 100px 0 0;
 }
 
+.home {
+    height: 100vh;
+}
+
 .box-container {
     display: table;
     height: 100%;
