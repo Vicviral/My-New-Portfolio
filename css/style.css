@@ -363,7 +363,7 @@ section:after {
 }
 
 .home {
-    height: 100vh;
+    padding-bottom: 20px;
 }
 
 .box-container {
@@ -384,11 +384,11 @@ section:after {
 }
 
 .home-img {
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .home-img img {
-    width: 300px;
+    width: 500px;
 }
 
 .fa-download {
