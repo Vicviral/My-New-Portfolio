@@ -238,8 +238,8 @@ section:after {
 }
 
 #menu-toggle {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     padding: 9px 0;
     top: 45px;
@@ -247,6 +247,9 @@ section:after {
     cursor: pointer;
     transition: all .5s ease;
     background: rgba(255, 255, 255, 0.9);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #menu-toggle:hover {
