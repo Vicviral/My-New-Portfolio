@@ -548,12 +548,14 @@ section:after {
 .chip-item {
     background-color: #fff;
     color: black;
-    padding: 8px 20px;
+    padding: 5px 20px;
     margin: 5px;
     border-top: 2px solid #2E8BC0;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 5px 10px 18px #eeeded;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .chip-item:hover {
@@ -1101,6 +1103,9 @@ label {
     .tab-content {
         overflow-x: scroll;
         font-size: 14px;
+    }
+    .tab-content {
+        padding-bottom: 20px;
     }
 }
 
