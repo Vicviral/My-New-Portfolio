@@ -531,12 +531,6 @@ section:after {
     background-color: #f7f7f7;
 }
 
-
-/* .tab-content {
-    height: 80vh;
-    overflow-y: scroll;
-} */
-
 .skills-nav {
     margin-top: 50px;
 }
@@ -633,88 +627,15 @@ section:after {
 
 
 /* -----------------------------------------------------------------
-    				
-    				9.0   Timeline
 
--------------------------------------------------------------------*/
+   				 		7.0  Projects
 
 
-/* .timeline {
-    padding: 0;
-    margin: 5px 0 15px;
-    list-style: none;
-    position: relative;
+------------------------------------------------------------------*/
+
+#experience {
+    background-color: #f7f7f7;
 }
-
-.timeline-compact::after,
-.timeline-compact::before,
-.timeline-compact>li.latest::before {
-    background-color: #4285F4;
-}
-
-.timeline-compact>li {
-    padding-bottom: 35px;
-}
-
-.timeline>li {
-    display: block;
-    position: relative;
-    padding-left: 30px;
-    padding-bottom: 16px;
-}
-
-.timeline {
-    list-style: none;
-}
-
-.timeline-compact>li::before {
-    border: 1px solid #f6c163;
-}
-
-.timeline>li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 2px;
-    height: 16px;
-    width: 16px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 1px solid #4285f4;
-}
-
-.timeline-compact .timeline-date {
-    float: right;
-    text-transform: capitalize;
-    margin-bottom: 0;
-    line-height: 22px;
-}
-
-.timeline-compact .timeline-title {
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    color: #2b2b2b;
-}
-
-.timeline-compact .timeline-description {
-    color: #737373;
-    margin-top: 4px;
-}
-
-.timeline::after,
-.timeline::before {
-    position: absolute;
-    background-color: #4285f4;
-    content: "";
-}
-
-.timeline::before {
-    left: 7px;
-    top: 2px;
-    height: 100%;
-    width: 2px;
-} */
 
 
 /* -----------------------------------------------------------------
@@ -1176,91 +1097,6 @@ label {
         font-size: 14px;
     }
 }
-
-
-/* @media only screen and (min-width: 1170px) {
-    #timeline {
-        margin-bottom: 3em;
-        margin-top: 3em;
-    }
-    #timeline::before {
-        left: 50%;
-        margin-left: -2px;
-    }
-    .timeline-img {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-        left: 50%;
-        margin-left: -30px;
-        -webkit-transform: translateZ(0);
-        -webkit-backface-visibility: hidden;
-    }
-    .timeline-block {
-        margin: 4em 0;
-    }
-    .timeline-block:first-child {
-        margin-top: 0;
-    }
-    .timeline-block:last-child {
-        margin-bottom: 0;
-    }
-    .timeline-content {
-        margin-left: 0;
-        padding: 1.6em;
-        width: 45%;
-    }
-    .timeline-content::before {
-        top: 24px;
-        left: 100%;
-        border-color: transparent;
-        border-left-color: white;
-    }
-    .timeline-content .read-more {
-        float: left;
-    }
-    .timeline-content .date {
-        position: absolute;
-        width: 100%;
-        left: 122%;
-        top: 6px;
-    }
-    .timeline-block:nth-child(even) .timeline-content {
-        float: right;
-    }
-    .timeline-block:nth-child(even) .timeline-content::before {
-        top: 24px;
-        left: auto;
-        right: 100%;
-        border-color: transparent;
-        border-right-color: white;
-    }
-    .timeline-block:nth-child(even) .timeline-content .read-more {
-        float: right;
-    }
-    .timeline-block:nth-child(even) .timeline-content .date {
-        left: auto;
-        right: 122%;
-        text-align: right;
-    }
-    .cssanimations .timeline-content.is-hidden {
-        visibility: hidden;
-    }
-    .cssanimations .timeline-content.bounce-in {
-        visibility: visible;
-        -webkit-animation: bounce-2 0.6s;
-        -moz-animation: bounce-2 0.6s;
-        animation: bounce-2 0.6s;
-    }
-}
-
-@media only screen and (min-width: 1170px) {
-    .cssanimations .timeline-block:nth-child(even) .timeline-content.bounce-in {
-        -webkit-animation: bounce-2-inverse 0.6s;
-        -moz-animation: bounce-2-inverse 0.6s;
-        animation: bounce-2-inverse 0.6s;
-    }
-} */
 
 
 /*--------------------------------------------*/
