@@ -1,0 +1,262 @@
+/*time line*/
+
+.timeline {
+    padding: 0;
+    margin: 5px 0 15px;
+    list-style: none;
+    position: relative;
+}
+
+.timeline-compact::after,
+.timeline-compact::before,
+.timeline-compact>li.latest::before {
+    background-color: #4285F4;
+}
+
+.timeline-compact>li {
+    padding-bottom: 35px;
+}
+
+.timeline>li {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 16px;
+}
+
+.timeline {
+    list-style: none;
+}
+
+.timeline-compact>li::before {
+    border: 1px solid #f6c163;
+}
+
+.timeline>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #4285f4;
+}
+
+.timeline-compact .timeline-date {
+    float: right;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+
+.timeline-compact .timeline-title {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+.timeline-compact .timeline-description {
+    color: #737373;
+    margin-top: 4px;
+}
+
+.timeline::after,
+.timeline::before {
+    position: absolute;
+    background-color: #4285f4;
+    content: "";
+}
+
+.timeline::before {
+    left: 7px;
+    top: 2px;
+    height: 100%;
+    width: 2px;
+}
+
+.timeline-comment {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.timeline-comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+}
+
+.timeline-comment span {
+    float: left;
+    margin: 10px 0px 0px 20px;
+    color: #292727;
+}
+
+.timeline-comment span small {
+    margin-left: 10px;
+}
+
+.text-light {
+    color: #938e8e;
+}
+
+.timeline-comment .comment-text {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+#timeline {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 2em 0;
+    position: relative;
+}
+
+#timeline::before {
+    background: #ffffff;
+    content: '';
+    height: 100%;
+    display: inline-block;
+    left: 18px;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+
+.timeline-block {
+    margin: 2em 0;
+    position: relative;
+}
+
+.timeline-block:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.timeline-block:first-child {
+    margin-top: 0;
+}
+
+.timeline-block:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.timeline-img.success {
+    background: #81c868;
+}
+
+.timeline-img.info {
+    background: #34d3eb;
+}
+
+.timeline-img.pink {
+    background: #fb6d9d;
+}
+
+.timeline-img.danger {
+    background: #f05050;
+}
+
+.timeline-img.primary {
+    background: #5d9cec;
+}
+
+.timeline-img.warning {
+    background: #ffbd4a;
+}
+
+.timeline-content {
+    -moz-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 0;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
+    padding: 1em;
+    position: relative;
+}
+
+.timeline-content img {
+    display: block;
+    width: 100%;
+}
+
+.timeline-content:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.timeline-content h2 {
+    margin-top: 0;
+}
+
+.timeline-content p {
+    color: #666666;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+}
+
+.timeline-content .read-more {
+    background: #acb7c0;
+    border-radius: 0.25em;
+    color: white;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    padding: .8em 1em;
+}
+
+.timeline-content .date {
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.timeline-content h3 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.no-touch .timeline-content .read-more:hover {
+    background-color: #bac4cb;
+}
+
+.timeline-content .date {
+    float: left;
+    margin-right: 20px;
+    padding: .8em 0;
+    opacity: .7;
+}
+
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid white;
+}
