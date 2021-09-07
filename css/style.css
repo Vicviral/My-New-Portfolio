@@ -553,7 +553,7 @@ section:after {
     border-top: 2px solid #2E8BC0;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: 5px 10px 18px #d8d7d7;
+    box-shadow: 5px 10px 18px #eeeded;
 }
 
 .chip-item:hover {
@@ -629,13 +629,18 @@ section:after {
 
 /* -----------------------------------------------------------------
 
-   				 		7.0  Projects
+   				 		7.0  Experience
 
 
 ------------------------------------------------------------------*/
 
 #experience {
     background-color: #f7f7f7;
+}
+
+.experience-container {
+    position: relative;
+    margin-top: 30px;
 }
 
 
