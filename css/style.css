@@ -557,7 +557,8 @@ section:after {
 }
 
 .chip-item:hover {
-    cursor: move;
+    background: #2E8BC0;
+    color: white;
 }
 
 
