@@ -521,6 +521,47 @@ section:after {
 
 
 /* -----------------------------------------------------------------
+     
+
+     						6.0     Skills
+
+-----------------------------------------------------------------*/
+
+#skills {
+    background-color: #f7f7f7;
+}
+
+.skills-nav {
+    margin-top: 50px;
+}
+
+.chips {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.firs-row {
+    margin-top: 20px;
+}
+
+.chip-item {
+    background-color: #fff;
+    color: black;
+    padding: 8px 20px;
+    margin: 5px;
+    border-top: 2px solid #2E8BC0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 5px 10px 18px #d8d7d7;
+}
+
+.chip-item:hover {
+    cursor: move;
+}
+
+
+/* -----------------------------------------------------------------
 
    				 		7.0  Projects
 
