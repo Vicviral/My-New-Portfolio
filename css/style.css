@@ -673,7 +673,8 @@ section:after {
     display: block;
 }
 
-.owl-theme .owl-controls .owl-page.active span {}
+
+/* .owl-theme .owl-controls .owl-page.active span {} */
 
 .owl-theme .owl-controls .owl-page span {
     background-color: #B1D4E0;
@@ -1050,6 +1051,9 @@ label {
     #contact button {
         float: none;
     }
+    .tab-content {
+        overflow-x: scroll;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1062,6 +1066,9 @@ label {
         padding: 0 0;
         text-align: center;
     }
+    .tab-content {
+        overflow-x: scroll;
+    }
 }
 
 @media (max-width: 479px) {
@@ -1071,6 +1078,9 @@ label {
     .box-container {
         width: 280px;
         margin: 0 auto;
+    }
+    .tab-content {
+        overflow-x: scroll;
     }
 }
 
